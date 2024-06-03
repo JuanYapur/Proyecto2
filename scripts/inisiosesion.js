@@ -12,6 +12,6 @@ const handleSubmit = (event) => {
         localStorage.setItem('authUser', JSON.stringify(founduser))
         window.location.href='http://127.0.0.1:5500/pages/home.html'
     } else{
-        alert('las credenciasles ingresadas no son validas')
+        alert('las credenciales ingresadas no son validas')
     }
 }
